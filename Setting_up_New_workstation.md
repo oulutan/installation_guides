@@ -4,7 +4,7 @@ sudo apt-get install htop vim tmux
 2 - Setup pip without sudo
 Download https://bootstrap.pypa.io/get-pip.py
 Run python get-pip.py --user
-It will install it into ~/.local/
+It will install it into \~/.local/
 Add PATH=$PATH:~/.local/bin to bashrc or bash_profile
 
 3 - Setup python tools
