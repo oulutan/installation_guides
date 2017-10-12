@@ -1,4 +1,8 @@
-1 - Install the basic tools
+1 - Update and Install the basic tools
+
+sudo apt-get update
+
+sudo apt-get upgrade 
 
 sudo apt-get install htop vim tmux 
 
