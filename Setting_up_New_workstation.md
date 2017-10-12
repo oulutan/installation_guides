@@ -20,4 +20,24 @@ Add PATH=$PATH:~/.local/bin to bashrc or bash_profile
 
 pip install virtualenv numpy scipy ipython pdbpp tqdm scikit-learn scikit-image six wheel pandas matplotlib pdbpp sympy nose
 
-4 - 
+4 - Install Nvidia Drivers
+
+Add graphics-drivers ppa and install the official release: https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+
+5 - Download CUDA toolkit and set it up
+
+https://developer.nvidia.com/cuda-toolkit and download the toolkit. If you need an earlier release go to legacy releases and the end of the page
+
+Add cuda/bin to $PATH and cuda/lib64 to $LD_LIBRARY_PATH
+
+!!WHEN IT ASKS YOU TO INSTALL THE NVIDIA DRIVERS SAY NO, WE ALREADY SET THAT UP. It might break things
+
+6 - Download CUDNN and copy it inside the cuda folder. DONT DOWNLOAD THE DEB RELEASE
+
+7 - Install ffmpeg
+
+8 - Install opencv
+
+wget https://github.com/opencv/opencv/archive/3.3.0.zip
+wget https://github.com/opencv/opencv_contrib/archive/3.3.0.zip
+
