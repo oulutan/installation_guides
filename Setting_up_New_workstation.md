@@ -38,6 +38,12 @@ Add cuda/bin to $PATH and cuda/lib64 to $LD_LIBRARY_PATH
 
 8 - Install opencv
 
+Dependencies:
+
+sudo apt install gcc g++ git libjpeg-dev libpng-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev pkg-config cmake libgtk2.0-dev libeigen3-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev sphinx-common libtbb-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libavcodec-dev libavutil-dev libavfilter-dev libavformat-dev libavresample-dev
+
+Install VLC for codecs and stuff
+
 wget https://github.com/opencv/opencv/archive/3.3.0.zip
 wget https://github.com/opencv/opencv_contrib/archive/3.3.0.zip
 
